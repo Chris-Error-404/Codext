@@ -1,4 +1,5 @@
 /*! tailwindcss v4.1.11 | MIT License | https://tailwindcss.com */
+@layer properties;
 @layer theme, base, components, utilities;
 @layer theme {
   :root, :host {
@@ -159,6 +160,9 @@
   .min-h-screen {
     min-height: 100vh;
   }
+  .transform {
+    transform: var(--tw-rotate-x,) var(--tw-rotate-y,) var(--tw-rotate-z,) var(--tw-skew-x,) var(--tw-skew-y,);
+  }
   .bg-\[radial-gradient\(ellipse_at_left\,_\#42E8E0_0\%\,_\#3FD3D5_3\%\,_\#39A6BC_12\%\,_\#337EA6_21\%\,_\#2E5D93_30\%\,_\#2B4184_41\%\,_\#283070_52\%\,_\#261D70_64\%\,_\#24156B_78\%\,_\#24126A_100\%\)\] {
     background-image: radial-gradient(ellipse at left, #42E8E0 0%, #3FD3D5 3%, #39A6BC 12%, #337EA6 21%, #2E5D93 30%, #2B4184 41%, #283070 52%, #261D70 64%, #24156B 78%, #24126A 100%);
   }
@@ -187,4 +191,35 @@ body {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
+}
+@property --tw-rotate-x {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-rotate-y {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-rotate-z {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-skew-x {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-skew-y {
+  syntax: "*";
+  inherits: false;
+}
+@layer properties {
+  @supports ((-webkit-hyphens: none) and (not (margin-trim: inline))) or ((-moz-orient: inline) and (not (color:rgb(from red r g b)))) {
+    *, ::before, ::after, ::backdrop {
+      --tw-rotate-x: initial;
+      --tw-rotate-y: initial;
+      --tw-rotate-z: initial;
+      --tw-skew-x: initial;
+      --tw-skew-y: initial;
+    }
+  }
 }
