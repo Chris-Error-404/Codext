@@ -17,6 +17,44 @@
     <!--  npx @tailwindcss/cli -i ./src/input.css -o ./public/css/output.css --watch  -->
 </head>
 <body>
-    
+<section class="min-h-[100svh] bg-[linear-gradient(to_bottom,_#d7e8ef_0%,_#d7e8ef_30%,_#d4d1e2_70%,_#d4d1e2_100%)] md:bg-[linear-gradient(to_right,_#d7e8ef_0%,_#d7e8ef_30%,_#d4d1e2_70%,_#d4d1e2_100%)]">
+    <nav class="container mx-auto px-4 py-6 max-w-[1400px] flex flex-row items-center justify-between">
+        <a href="#" class="#">
+            <img src="./img/Logo/logo_svg.svg" alt="#">
+        </a>
+
+        <ul class="items-center gap-8 hidden md:flex">
+            <li><a href="#" class="text-lg duration-200 hover:text-[var(--blue)] active">Home</a></li>
+            <li><a href="#" class="text-lg duration-200 hover:text-[var(--blue)]">Services</a></li>
+            <li><a href="#" class="text-lg duration-200 hover:text-[var(--blue)]">Pricing</a></li>
+            <li><a href="#" class="text-lg duration-200 hover:text-[var(--blue)]">Testimony</a></li>
+            <li><a href="#" class="text-lg duration-200 hover:text-[var(--blue)]">Blog</a></li>
+            <li><a href="#" class="text-base duration-200 bg-[var(--blue)] px-6 py-4 rounded-sm text-[var(--white)] hover:text-[var(--blue)] hover:bg-[var(--light-blue)]">FREE TRIAL</a></li>
+        </ul>
+
+        <!-- Hamburger -->
+        <button id="menu-btn" class="hamburger md:hidden" type="button" title="hamburger">
+        <span class="hamburger-top"></span>
+        <span class="hamburger-middle"></span>
+        <span class="hamburger-bottom"></span>
+        </button>
+    </nav>
+    <div class="container mx-auto px-4 py-6 max-w-[1400px] grid md:grid-cols-2 md:min-h-[80svh] items-center justify-center  md:justify-start gap-10">
+        <div class="flex flex-col gap-7 items-center justify-center md:items-start md:justify-start">
+        <h1 class="text-5xl text-center md:text-left md:text-[4.1rem] font-medium leading-[1.1]">Codext one of <br> the best system <br> in <span class="text-[var(--blue)]">SAAS</span></h1>
+        <p class="md:max-w-[75%] text-center md:text-left ">Codext delivers smart, scalable, and secure solutions that drive growth, boost efficiency, and spark innovation across every stage of business</p>
+        <a href="#" class="w-fit text-base duration-200 bg-[var(--blue)] px-6 py-4 rounded-sm text-[var(--white)] hover:text-[var(--blue)] hover:bg-[var(--light-blue)]">Try A Live Demo</a>
+        </div>
+
+        <img src="./img/illustrations/hero_img_svg.svg" alt="">
+        
+    </div>
+
+</section>
+
+
+
+
+
 </body>
 </html>
