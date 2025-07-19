@@ -179,6 +179,69 @@
   }
 }
 @layer utilities {
+  .pointer-events-none {
+    pointer-events: none;
+  }
+  .absolute {
+    position: absolute;
+  }
+  .relative {
+    position: relative;
+  }
+  .-bottom-\[-1px\] {
+    bottom: calc(-1px * -1);
+  }
+  .-bottom-\[-2px\] {
+    bottom: calc(-2px * -1);
+  }
+  .-bottom-\[-5px\] {
+    bottom: calc(-5px * -1);
+  }
+  .-bottom-\[-10px\] {
+    bottom: calc(-10px * -1);
+  }
+  .-bottom-\[-20px\] {
+    bottom: calc(-20px * -1);
+  }
+  .-bottom-\[-px\] {
+    bottom: calc(-px * -1);
+  }
+  .-bottom-\[0px\] {
+    bottom: calc(0px * -1);
+  }
+  .-bottom-\[8px\] {
+    bottom: calc(8px * -1);
+  }
+  .-bottom-\[10px\] {
+    bottom: calc(10px * -1);
+  }
+  .-bottom-\[20px\] {
+    bottom: calc(20px * -1);
+  }
+  .-bottom-\[px\] {
+    bottom: calc(px * -1);
+  }
+  .bottom-1 {
+    bottom: calc(var(--spacing) * 1);
+  }
+  .left-0 {
+    left: calc(var(--spacing) * 0);
+  }
+  .left-\[0px\] {
+    left: 0px;
+  }
+  .left-\[10px\] {
+    left: 10px;
+  }
+  .left-\[15px\] {
+    left: 15px;
+  }
+  .left-\[25px\] {
+    left: 25px;
+  }
+  .left-\[35px\] {
+    left: 35px;
+  }
   .container {
     width: 100%;
     @media (width >= 40rem) {
@@ -221,6 +284,9 @@
   .hidden {
     display: none;
   }
+  .inline-block {
+    display: inline-block;
+  }
   .table {
     display: table;
   }
@@ -235,6 +301,9 @@
   }
   .w-fit {
     width: fit-content;
+  }
+  .w-full {
+    width: 100%;
   }
   .max-w-\[0\%\] {
     max-width: 0%;
@@ -364,6 +433,18 @@
     font-size: var(--text-lg);
     line-height: var(--tw-leading, var(--text-lg--line-height));
   }
+  .text-\[2\.8rem\] {
+    font-size: 2.8rem;
+  }
+  .text-\[3\.8pc\] {
+    font-size: 3.8pc;
+  }
+  .text-\[3\.8px\] {
+    font-size: 3.8px;
+  }
+  .text-\[3\.8rem\] {
+    font-size: 3.8rem;
+  }
   .text-\[4\.1rem\] {
     font-size: 4.1rem;
   }
@@ -417,6 +498,9 @@
   .font-semibold {
     --tw-font-weight: var(--font-weight-semibold);
     font-weight: var(--font-weight-semibold);
+  }
+  .text-\[3\] {
+    color: 3;
   }
   .text-\[4\] {
     color: 4;
@@ -510,9 +594,20 @@
       background-image: linear-gradient(to right, #d7e8ef 0%, #d7e8ef 30%, #d4d1e2 70%, #d4d1e2 100%);
     }
   }
+  .md\:py-6 {
+    @media (width >= 48rem) {
+      padding-block: calc(var(--spacing) * 6);
+    }
+  }
   .md\:text-left {
     @media (width >= 48rem) {
       text-align: left;
+    }
+  }
+  .md\:text-5xl {
+    @media (width >= 48rem) {
+      font-size: var(--text-5xl);
+      line-height: var(--tw-leading, var(--text-5xl--line-height));
     }
   }
   .md\:text-\[4\.1rem\] {
