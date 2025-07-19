@@ -299,6 +299,12 @@
   .min-h-\[100svh\] {
     min-height: 100svh;
   }
+  .w-\[70\%\] {
+    width: 70%;
+  }
+  .w-\[80\%\] {
+    width: 80%;
+  }
   .w-fit {
     width: fit-content;
   }
@@ -567,6 +573,11 @@
   .md\:min-h-\[80svh\] {
     @media (width >= 48rem) {
       min-height: 80svh;
+    }
+  }
+  .md\:w-fit {
+    @media (width >= 48rem) {
+      width: fit-content;
     }
   }
   .md\:max-w-\[75\%\] {
