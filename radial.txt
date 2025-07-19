@@ -1,0 +1,3 @@
+<section class="min-h-screen bg-[radial-gradient(ellipse_at_left,_#42E8E0_0%,_#3FD3D5_3%,_#39A6BC_12%,_#337EA6_21%,_#2E5D93_30%,_#2B4184_41%,_#283070_52%,_#261D70_64%,_#24156B_78%,_#24126A_100%)]">
+  <!-- Your content here -->
+</section>
