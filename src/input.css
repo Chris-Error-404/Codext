@@ -50,6 +50,10 @@ p{
     color: var(--gray);
 }
 
+ul,li {
+    list-style-type: none;
+}
+
 /* navbar */
 .active{
     color: var(--blue);
