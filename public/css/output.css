@@ -266,6 +266,9 @@
   .w-\[31\%\] {
     width: 31%;
   }
+  .w-\[33\%\] {
+    width: 33%;
+  }
   .w-\[35\%\] {
     width: 35%;
   }
@@ -301,6 +304,9 @@
   }
   .transform {
     transform: var(--tw-rotate-x,) var(--tw-rotate-y,) var(--tw-rotate-z,) var(--tw-skew-x,) var(--tw-skew-y,);
+  }
+  .cursor-none {
+    cursor: none;
   }
   .cursor-pointer {
     cursor: pointer;
