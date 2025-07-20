@@ -722,6 +722,11 @@
       gap: calc(var(--spacing) * 7);
     }
   }
+  .md\:gap-18 {
+    @media (width >= 48rem) {
+      gap: calc(var(--spacing) * 18);
+    }
+  }
   .md\:bg-\[linear-gradient\(to_right\,_\#d7e8ef_0\%\,_\#d7e8ef_30\%\,_\#d4d1e2_70\%\,_\#d4d1e2_100\%\)\] {
     @media (width >= 48rem) {
       background-image: linear-gradient(to right, #d7e8ef 0%, #d7e8ef 30%, #d4d1e2 70%, #d4d1e2 100%);
