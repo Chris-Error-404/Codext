@@ -64,10 +64,14 @@ ul,li {
 }
 
 /* features */
-.feature-border{
-    opacity: 0;
+.price-card:hover h4.price-header{
+    color: var(--white);
 }
 
+.price-card:hover img.price-line{
+    filter: invert(1) brightness(2);
+
+}
 
 /* HAMBURGER MENU */
 .hamburger{
