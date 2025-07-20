@@ -40,13 +40,15 @@
         <span class="hamburger-bottom"></span>
         </button>
     </nav>
+
+    <!--hero/-->
     <div class="container mx-auto px-4 py-6 max-w-[1400px] grid md:grid-cols-2 md:min-h-[80svh] items-center justify-center  md:justify-start gap-10 md:gap-0">
         <div class="flex flex-col gap-7 items-center justify-center md:items-start md:justify-start">
-        <h1 class="text-[2.8rem] md:text-5xl text-center md:text-left md:text-[4.1rem] font-medium leading-[1.1]">
+        <h1 class="text-[2.8rem] text-center md:text-left md:text-[4.4rem] font-medium leading-[1.1]">
         Codext one of <br>
         the best system <br>
         in <span class="relative inline-block text-[var(--blue)]">SAAS
-        <img src="./img/abstract/line_svg.svg" alt="" class="absolute left-[35px] -bottom-[8px] w-full pointer-events-none">
+        <img src="./img/abstract/line_svg.svg" alt="" class="absolute left-[35px] -bottom-[8px] md:-bottom-[10px] w-full pointer-events-none">
         </span>.</h1>
         <p class="md:max-w-[75%] text-center md:text-left ">Codext delivers smart, scalable, and secure solutions that drive growth, boost efficiency, and spark innovation across every stage of business</p>
         <a href="#" class="w-fit text-base duration-200 bg-[var(--blue)] px-6 py-4 rounded-sm text-[var(--white)] hover:text-[var(--blue)] hover:bg-[var(--light-blue)]">Try A Live Demo</a>
@@ -60,8 +62,67 @@
 
 
 <section>
-    <div class="container mx-auto px-4 py-6 md:py-10 max-w-[1400px]">
+    <div class="container mx-auto px-4 py-6 md:py-10 max-w-[1400px] flex flex-col items-center justify-center gap-18">
         <h2 class="text-center text-[1.8rem] md:text-4xl font-medium leading-[1.1]">We Provide the best features<br>for customers</h2>
+        <div class="grid md:grid-cols-4 items-center gap-8">
+
+            <!--card/-->
+            <div class="group px-4 py-10 flex flex-col items-center justify-center shadow-lg rounded-lg max-w-[100%]">
+                <div class="mb-10 bg-[var(--red-bg)] transition-all duration-200 md:group-hover:bg-[var(--dark-red)] min-w-[120px] min-h-[120px] rounded-full w-fit flex items-center justify-center">
+                    <img src="./img/icons/terminal_svg.svg" alt="" class="h-auto w-[50px] transition-all duration-200 group-hover:invert group-hover:brightness-0 group-hover:contrast-200">
+                </div>
+                <h3 class="mb-4 text-2xl font-medium">Clean Code</h3>
+                <p class="mb-6 text-center text-base">
+                   Built with clean code for speed and easy maintenance.
+                </p>
+                <a href="#" class="group/arrow border border-[var(--blue)] rounded-full flex items-center justify-center p-1 w-fit transition-all duration-200 hover:bg-[var(--blue)] ">
+                    <i class="bx bx-right-arrow-alt text-2xl text-[var(--blue)] group-hover/arrow:text-[var(--white)]"></i>
+                </a>
+            </div>
+
+            <!--card/-->
+            <div class="group px-4 py-10 flex flex-col items-center justify-center shadow-lg rounded-lg max-w-[100%]">
+                <div class="mb-10 bg-[var(--brown-bg)] transition-all duration-200 group-hover:bg-[var(--dark-brown)] min-w-[120px] min-h-[120px] rounded-full w-fit flex items-center justify-center">
+                    <img src="./img/icons/chart_svg.svg" alt="" class="h-auto w-[50px] transition-all duration-200 group-hover:invert group-hover:brightness-0 group-hover:contrast-200">
+                </div>
+                <h3 class="mb-4 text-2xl font-medium">Data Analytics</h3>
+                <p class="mb-6 text-center text-base">
+                    Real-time data insights to guide smart decisions.
+                </p>
+                <a href="#" class="group/arrow border border-[var(--blue)] rounded-full flex items-center justify-center p-1 w-fit transition-all duration-200 hover:bg-[var(--blue)] ">
+                    <i class="bx bx-right-arrow-alt text-2xl text-[var(--blue)] group-hover/arrow:text-[var(--white)]"></i>
+                </a>
+            </div>
+
+            <!--card/-->
+            <div class="group px-4 py-10 flex flex-col items-center justify-center shadow-lg rounded-lg max-w-[100%]">
+                <div class="mb-10 bg-[var(--green-bg)] transition-all duration-200 group-hover:bg-[var(--dark-green)] min-w-[120px] min-h-[120px] rounded-full w-fit flex items-center justify-center">
+                    <img src="./img/icons/folder_svg.svg" alt="" class="h-auto w-[50px] transition-all duration-200 group-hover:invert group-hover:brightness-0 group-hover:contrast-200">
+                </div>
+                <h3 class="mb-4 text-2xl font-medium">Fully Secured</h3>
+                <p class="mb-6 text-center text-base">
+                    Your data is protected with strong encryption.
+                </p>
+                <a href="#" class="group/arrow border border-[var(--blue)] rounded-full flex items-center justify-center p-1 w-fit transition-all duration-200 hover:bg-[var(--blue)] ">
+                    <i class="bx bx-right-arrow-alt text-2xl text-[var(--blue)] group-hover/arrow:text-[var(--white)]"></i>
+                </a>
+            </div>
+
+            <!--card/-->
+            <div class="group px-4 py-10 flex flex-col items-center justify-center shadow-lg rounded-lg max-w-[100%]">
+                <div class="mb-10 bg-[var(--purple-bg)] transition-all duration-200 group-hover:bg-[var(--dark-purple)] min-w-[120px] min-h-[120px] rounded-full w-fit flex items-center justify-center">
+                    <img src="./img/icons/mail_svg.svg" alt="" class="h-auto w-[50px] transition-all duration-200 group-hover:invert group-hover:brightness-0 group-hover:contrast-200">
+                </div>
+                <h3 class="mb-4 text-2xl font-medium">24/7 Supprrt</h3>
+                <p class="mb-6 text-center text-base">
+                    Your data is protected with strong encryption.
+                </p>
+                <a href="#" class="group/arrow border border-[var(--blue)] rounded-full flex items-center justify-center p-1 w-fit transition-all duration-200 hover:bg-[var(--blue)] ">
+                    <i class="bx bx-right-arrow-alt text-2xl text-[var(--blue)] group-hover/arrow:text-[var(--white)]"></i>
+                </a>
+            </div>
+
+        </div>
     </div>
 </section>
 
@@ -76,7 +137,7 @@
             </a>
             <h4 class="font-medium text-[1.2rem] md:hidden">Social Links</h4>
             <p class="">Have a question? Let’s talk about how Codext’s smart and secure SaaS solutions can help your business grow.</p>
-            <div class="flex gap-6 items-center">
+            <div class="flex gap-4 md:gap-6 items-center">
                 <a href="#" class="flex items-center justify-center text-xl text-[var(--blue)] bg-[var(--boxicon-color)] p-2.5 rounded-full duration-200 transition-all hover:bg-[var(--blue)] hover:text-[var(--white)]"><i class="bx bxl-twitter"></i></a>
                 <a href="#" class="flex items-center justify-center text-xl text-[var(--blue)] bg-[var(--boxicon-color)] p-2.5 rounded-full duration-200 transition-all hover:bg-[var(--blue)] hover:text-[var(--white)]"><i class="bx bxl-facebook"></i></a>
                 <a href="#" class="flex items-center justify-center text-xl text-[var(--blue)] bg-[var(--boxicon-color)] p-2.5 rounded-full duration-200 transition-all hover:bg-[var(--blue)] hover:text-[var(--white)]"><i class="bx bxl-instagram"></i></a>
