@@ -290,6 +290,12 @@
   .w-\[84\%\] {
     width: 84%;
   }
+  .w-\[90\%\] {
+    width: 90%;
+  }
+  .w-\[90\] {
+    width: 90;
+  }
   .w-fit {
     width: fit-content;
   }
