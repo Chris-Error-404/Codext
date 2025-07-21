@@ -287,9 +287,6 @@
   .w-\[84\%\] {
     width: 84%;
   }
-  .w-\[100\%\] {
-    width: 100%;
-  }
   .w-fit {
     width: fit-content;
   }
@@ -713,16 +710,6 @@
   .md\:max-w-\[75\%\] {
     @media (width >= 48rem) {
       max-width: 75%;
-    }
-  }
-  .md\:max-w-\[80\%\] {
-    @media (width >= 48rem) {
-      max-width: 80%;
-    }
-  }
-  .md\:min-w-\[350px\] {
-    @media (width >= 48rem) {
-      min-width: 350px;
     }
   }
   .md\:grid-cols-2 {
