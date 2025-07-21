@@ -22,6 +22,7 @@ body{
     --white: #fff;
     --gray: #51565E;
     --blue: #2657A4; 
+    --mid-blue: #3b5ed8;
     --light-blue: rgba(38, 87, 164, 0.1);
 
     /* hero bg*/
@@ -46,13 +47,13 @@ body{
     --input-border: rgba(6, 14, 26, 0.5);
 }
 
-h1,h2,h3,h4,h5,h6{
+/* h1,h2,h3,h4,h5,h6{
     color: var(--black);
-}
+} */
 
-p{
+/* p{
     color: var(--gray);
-}
+} */
 
 ul,li {
     list-style-type: none;
