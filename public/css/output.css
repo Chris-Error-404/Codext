@@ -233,14 +233,26 @@
   .mx-auto {
     margin-inline: auto;
   }
+  .mt-0 {
+    margin-top: calc(var(--spacing) * 0);
+  }
+  .mt-4 {
+    margin-top: calc(var(--spacing) * 4);
+  }
   .mt-6 {
     margin-top: calc(var(--spacing) * 6);
+  }
+  .mt-10 {
+    margin-top: calc(var(--spacing) * 10);
   }
   .mt-14 {
     margin-top: calc(var(--spacing) * 14);
   }
   .mt-25 {
     margin-top: calc(var(--spacing) * 25);
+  }
+  .mb-0 {
+    margin-bottom: calc(var(--spacing) * 0);
   }
   .mb-4 {
     margin-bottom: calc(var(--spacing) * 4);
@@ -254,8 +266,14 @@
   .mb-10 {
     margin-bottom: calc(var(--spacing) * 10);
   }
+  .mb-12 {
+    margin-bottom: calc(var(--spacing) * 12);
+  }
   .mb-14 {
     margin-bottom: calc(var(--spacing) * 14);
+  }
+  .mb-16 {
+    margin-bottom: calc(var(--spacing) * 16);
   }
   .mb-25 {
     margin-bottom: calc(var(--spacing) * 25);
@@ -376,9 +394,6 @@
   }
   .gap-4 {
     gap: calc(var(--spacing) * 4);
-  }
-  .gap-6 {
-    gap: calc(var(--spacing) * 6);
   }
   .gap-7 {
     gap: calc(var(--spacing) * 7);
@@ -508,6 +523,15 @@
   .py-16 {
     padding-block: calc(var(--spacing) * 16);
   }
+  .pt-8 {
+    padding-top: calc(var(--spacing) * 8);
+  }
+  .pt-10 {
+    padding-top: calc(var(--spacing) * 10);
+  }
+  .pb-8 {
+    padding-bottom: calc(var(--spacing) * 8);
+  }
   .text-center {
     text-align: center;
   }
@@ -581,6 +605,9 @@
   }
   .text-\[var\(--white\)\] {
     color: var(--white);
+  }
+  .text-\[var\] {
+    color: var;
   }
   .underline {
     text-decoration-line: underline;
@@ -743,6 +770,31 @@
   .md\:-bottom-\[10px\] {
     @media (width >= 48rem) {
       bottom: calc(10px * -1);
+    }
+  }
+  .md\:mt-16 {
+    @media (width >= 48rem) {
+      margin-top: calc(var(--spacing) * 16);
+    }
+  }
+  .md\:mt-18 {
+    @media (width >= 48rem) {
+      margin-top: calc(var(--spacing) * 18);
+    }
+  }
+  .md\:mt-20 {
+    @media (width >= 48rem) {
+      margin-top: calc(var(--spacing) * 20);
+    }
+  }
+  .md\:mt-25 {
+    @media (width >= 48rem) {
+      margin-top: calc(var(--spacing) * 25);
+    }
+  }
+  .md\:mb-25 {
+    @media (width >= 48rem) {
+      margin-bottom: calc(var(--spacing) * 25);
     }
   }
   .md\:block {
