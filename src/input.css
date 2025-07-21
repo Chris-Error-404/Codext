@@ -63,7 +63,7 @@ ul,li {
     color: var(--blue);
 }
 
-/* features */
+/* priceing */
 .price-card:hover h4.price-header{
     color: var(--white);
 }
@@ -71,6 +71,16 @@ ul,li {
 .price-card:hover img.price-line{
     filter: invert(1) brightness(2);
 
+}
+@media (max-width:1024px){
+    .price-card:hover h4.price-header{
+    color: var(--black);
+    }
+
+    .price-card:hover img.price-line{
+        filter: none;
+
+    }
 }
 
 /* HAMBURGER MENU */
