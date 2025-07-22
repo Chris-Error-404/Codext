@@ -18,13 +18,15 @@
     <!--  npx @tailwindcss/cli -i ./src/input.css -o ./public/css/output.css --watch  -->
 </head>
 <body>
-<section class="min-h-[100svh] bg-[linear-gradient(to_bottom,_#d7e8ef_0%,_#d7e8ef_30%,_#d4d1e2_70%,_#d4d1e2_100%)] md:bg-[linear-gradient(to_right,_#d7e8ef_0%,_#d7e8ef_30%,_#d4d1e2_70%,_#d4d1e2_100%)]">
-    <nav class="container mx-auto px-4 py-4 md:py-6 max-w-[1400px] flex flex-row items-center justify-between">
+
+<!--hero & navbar-->    
+<section class="min-h-[100svh] bg-[linear-gradient(to_bottom,_#d7e8ef_0%,_#d7e8ef_30%,_#d4d1e2_70%,_#d4d1e2_100%)] lg:bg-[linear-gradient(to_right,_#d7e8ef_0%,_#d7e8ef_30%,_#d4d1e2_70%,_#d4d1e2_100%)]">
+    <nav class="container mx-auto px-4 py-4 lg:py-6 max-w-[1400px] flex flex-row items-center justify-between">
         <a href="./index.html" class="#">
-            <img src="./img/Logo/logo_svg.svg" alt="#" class="w-[70%] md:w-fit">
+            <img src="./img/Logo/logo_svg.svg" alt="#" class="w-[70%] lg:w-fit">
         </a>
 
-        <ul class="items-center gap-8 hidden md:flex">
+        <ul class="items-center gap-8 hidden lg:flex">
             <li><a href="#" class="text-[var(--black)] text-lg duration-200 hover:text-[var(--blue)] active">Home</a></li>
             <li><a href="#" class="text-[var(--black)] text-lg duration-200 hover:text-[var(--blue)]">Services</a></li>
             <li><a href="#" class="text-[var(--black)] text-lg duration-200 hover:text-[var(--blue)]">Pricing</a></li>
@@ -34,7 +36,7 @@
         </ul>
 
         <!-- Hamburger -->
-        <button id="menu-btn" class="hamburger md:hidden" type="button" title="hamburger">
+        <button id="menu-btn" class="hamburger lg:hidden" type="button" title="hamburger">
         <span class="hamburger-top"></span>
         <span class="hamburger-middle"></span>
         <span class="hamburger-bottom"></span>
@@ -42,15 +44,15 @@
     </nav>
 
     <!--hero/-->
-    <div class="container mx-auto px-4 py-6 max-w-[1400px] grid md:grid-cols-2 md:min-h-[80svh] items-center justify-center  md:justify-start gap-10 md:gap-0">
-        <div class="flex flex-col gap-7 items-center justify-center md:items-start md:justify-start">
-        <h1 class="text-[var(--black)] text-[2.8rem] text-center md:text-left md:text-[4.4rem] font-semibold leading-[1.1]">
+    <div class="container mx-auto px-4 py-6 max-w-[1400px] grid lg:grid-cols-2 lg:min-h-[80svh] items-center justify-center  lg:justify-start gap-10 lg:gap-0">
+        <div class="flex flex-col gap-7 items-center justify-center lg:items-start lg:justify-start">
+        <h1 class="text-[var(--black)] text-[2.8rem] text-center lg:text-left lg:text-[4.4rem] font-semibold leading-[1.1]">
         Codext one of <br>
         the best system<br>
         in <span class="relative inline-block text-[var(--blue)]">SAAS
-        <img src="./img/abstract/line_svg.svg" alt="" class="absolute left-[35px] -bottom-[8px] md:-bottom-[10px] w-full pointer-events-none">
+        <img src="./img/abstract/line_svg.svg" alt="" class="absolute left-[35px] -bottom-[8px] lg:-bottom-[10px] w-full pointer-events-none">
         </span>.</h1>
-        <p class="text-[var(--gray)] md:max-w-[75%] text-center md:text-left ">Codext delivers smart, scalable, and secure solutions that drive growth, boost efficiency, and spark innovation across every stage of business</p>
+        <p class="text-[var(--gray)] lg:max-w-[75%] text-center lg:text-left ">Codext delivers smart, scalable, and secure solutions that drive growth, boost efficiency, and spark innovation across every stage of business</p>
         <a href="#" class="w-fit text-base duration-200 bg-[var(--blue)] px-6 py-4 rounded-sm text-[var(--white)] hover:text-[var(--blue)] hover:bg-[var(--light-blue)]">Try A Live Demo</a>
         </div>
 
@@ -62,13 +64,13 @@
 
 
 <!--helpful-->
-<section class="md:mt-16 md:mb-25 mt-10 mb-0">
-    <div class="container mx-auto px-4 max-w-[1400px] flex flex-col-reverse md:grid md:grid-cols-2 items-center md:justify-center gap-8 md:gap-18">
+<section class="lg:mt-16 lg:mb-25 mt-10 mb-0">
+    <div class="container mx-auto px-4 max-w-[1400px] flex flex-col-reverse lg:grid lg:grid-cols-2 items-center lg:justify-center gap-8 lg:gap-18">
 
-        <img src="./img/illustrations/people_sitting_svg.svg" alt="" class="hidden md:block">
+        <img src="./img/illustrations/people_sitting_svg.svg" alt="" class="hidden lg:block lg:scale-115">
         
         <div class="grid-cols-1">
-            <h2 class="mb-10 text-[var(--black)] text-center md:text-left text-[1.8rem] md:text-4xl font-semibold leading-[1.1]">
+            <h2 class="mb-10 text-[var(--black)] text-center lg:text-left text-[1.8rem] lg:text-4xl font-semibold leading-[1.1]">
                 Its's very useful for 
                 <br>operating systems</h2>
 
@@ -107,13 +109,13 @@
 
 <!--features-->
 <section class="mt-25 mb-25">
-    <div class="container mx-auto px-4 max-w-[1400px] flex flex-col items-center justify-center gap-8 md:gap-18">
-        <h2 class="text-[var(--black)] text-center text-[1.8rem] md:text-4xl font-semibold leading-[1.1]">We Provide the best features<br>for customers</h2>
-        <div class="grid md:grid-cols-4 items-center justify-center w-[90%] md:w-[100%] gap-8">
+    <div class="container mx-auto px-4 max-w-[1400px] flex flex-col items-center justify-center gap-8 lg:gap-18">
+        <h2 class="text-[var(--black)] text-center text-[1.8rem] lg:text-4xl font-semibold leading-[1.1]">We Provide the best features<br>for customers</h2>
+        <div class="grid lg:grid-cols-4 items-center justify-center w-[90%] lg:w-[100%] gap-8">
 
             <!--card/-->
-            <div class="md:relative group px-6 py-10 flex flex-col items-center justify-center shadow-lg rounded-lg max-w-[100%]">
-                <div class="mb-10 bg-[var(--red-bg)] transition-all duration-200 md:group-hover:bg-[var(--mid-blue)] min-w-[120px] min-h-[120px] rounded-full w-fit flex items-center justify-center">
+            <div class="lg:relative group px-6 py-10 flex flex-col items-center justify-center shadow-lg rounded-lg max-w-[100%]">
+                <div class="mb-10 bg-[var(--red-bg)] transition-all duration-200 lg:group-hover:bg-[var(--mid-blue)] min-w-[120px] min-h-[120px] rounded-full w-fit flex items-center justify-center">
                     <img src="./img/icons/terminal_svg.svg" alt="" class="h-auto w-[50px]  ease-in-out transition-all duration-200 group-hover:invert group-hover:brightness-0 group-hover:contrast-200">
                 </div>
                 <h3 class="mb-4 text-2xl font-medium text-[var(--black)] ease-in-out transition-all duration-200 z-[9999] group-hover:text-[var(--white)]">Clean Code</h3>
@@ -127,8 +129,8 @@
             </div>
 
             <!--card/-->
-            <div class="md:relative group px-6 py-10 flex flex-col items-center justify-center shadow-lg rounded-lg max-w-[100%]">
-                <div class="mb-10 bg-[var(--brown-bg)] transition-all duration-200 md:group-hover:bg-[var(--mid-blue)] min-w-[120px] min-h-[120px] rounded-full w-fit flex items-center justify-center">
+            <div class="lg:relative group px-6 py-10 flex flex-col items-center justify-center shadow-lg rounded-lg max-w-[100%]">
+                <div class="mb-10 bg-[var(--brown-bg)] transition-all duration-200 lg:group-hover:bg-[var(--mid-blue)] min-w-[120px] min-h-[120px] rounded-full w-fit flex items-center justify-center">
                     <img src="./img/icons/chart_svg.svg" alt="" class="h-auto w-[50px]  ease-in-out transition-all duration-200 group-hover:invert group-hover:brightness-0 group-hover:contrast-200">
                 </div>
                 <h3 class="mb-4 text-2xl font-medium text-[var(--black)] ease-in-out transition-all duration-200 z-[9999] group-hover:text-[var(--white)]">Data Analytics</h3>
@@ -142,8 +144,8 @@
             </div>
 
             <!--card/-->
-            <div class="md:relative group px-6 py-10 flex flex-col items-center justify-center shadow-lg rounded-lg max-w-[100%]">
-                <div class="mb-10 bg-[var(--green-bg)] transition-all duration-200 md:group-hover:bg-[var(--mid-blue)] min-w-[120px] min-h-[120px] rounded-full w-fit flex items-center justify-center">
+            <div class="lg:relative group px-6 py-10 flex flex-col items-center justify-center shadow-lg rounded-lg max-w-[100%]">
+                <div class="mb-10 bg-[var(--green-bg)] transition-all duration-200 lg:group-hover:bg-[var(--mid-blue)] min-w-[120px] min-h-[120px] rounded-full w-fit flex items-center justify-center">
                     <img src="./img/icons/folder_svg.svg" alt="" class="h-auto w-[50px]  ease-in-out transition-all duration-200 group-hover:invert group-hover:brightness-0 group-hover:contrast-200">
                 </div>
                 <h3 class="mb-4 text-2xl font-medium text-[var(--black)] ease-in-out transition-all duration-200 z-[9999] group-hover:text-[var(--white)]">Fully Secured</h3>
@@ -157,8 +159,8 @@
             </div>
 
             <!--card/-->
-            <div class="md:relative group px-6 py-10 flex flex-col items-center justify-center shadow-lg rounded-lg max-w-[100%]">
-                <div class="mb-10 bg-[var(--purple-bg)] transition-all duration-200 md:group-hover:bg-[var(--mid-blue)] min-w-[120px] min-h-[120px] rounded-full w-fit flex items-center justify-center">
+            <div class="lg:relative group px-6 py-10 flex flex-col items-center justify-center shadow-lg rounded-lg max-w-[100%]">
+                <div class="mb-10 bg-[var(--purple-bg)] transition-all duration-200 lg:group-hover:bg-[var(--mid-blue)] min-w-[120px] min-h-[120px] rounded-full w-fit flex items-center justify-center">
                     <img src="./img/icons/mail_svg.svg" alt="" class="h-auto w-[50px]  ease-in-out transition-all duration-200 group-hover:invert group-hover:brightness-0 group-hover:contrast-200">
                 </div>
                 <h3 class="mb-4 text-2xl font-medium text-[var(--black)] ease-in-out transition-all duration-200 z-[9999] group-hover:text-[var(--white)]">24/7 Support</h3>
@@ -174,22 +176,24 @@
     </div>
 </section>
 
+
 <!--pricing/-->
-<section class="mt-14 mb-14 py-16 bg-[linear-gradient(to_bottom,_#d7e8ef_0%,_#d7e8ef_30%,_#d4d1e2_70%,_#d4d1e2_100%)] md:bg-[linear-gradient(to_bottom,_#d7e8ef_0%,_#d7e8ef_30%,_#d4d1e2_70%,_#d4d1e2_100%)]">
-        <div class="container mx-auto px-4 max-w-[1400px] flex flex-col items-center justify-center gap-8 md:gap-10">
+<section class="mt-14 mb-14 py-16 bg-[linear-gradient(to_bottom,_#d7e8ef_0%,_#d7e8ef_30%,_#d4d1e2_70%,_#d4d1e2_100%)] lg:bg-[linear-gradient(to_bottom,_#d7e8ef_0%,_#d7e8ef_30%,_#d4d1e2_70%,_#d4d1e2_100%)]">
+        <div class="container mx-auto px-4 max-w-[1400px] flex flex-col items-center justify-center gap-8 lg:gap-10">
         <div>
-        <h2 class="text-center text-[1.8rem] md:text-4xl font-semibold leading-[1.1]">Choose your best pricing plan</h2>
+        <h2 class="text-center text-[1.8rem] lg:text-4xl font-semibold leading-[1.1]">Choose your best pricing plan</h2>
         <h4 class="mt-6 text-xl text-center font-medium">Added for <span class="text-[var(--blue)]">Monthly</span></h4>
         </div>
 
-        <div class="md:grid grid-cols-1 md:grid-cols-3 flex flex-col gap-8 md:gap-18 items-center justify-center md:w-[84%] w-[90%]">
+
+        <div class=" flex flex-col lg:flex-row items-center justify-center gap-8 w-[90%] lg:w-[80%]">
 
             <!--price card/-->
-            <div class="bg-[var(--white)] md:relative grid-cols-1 group px-4 md:px-8 py-10 flex flex-col gap-10 items-center justify-center shadow-lg rounded-lg w-full md:max-w-[80%] md:min-w-[350px] overflow-hidden price-card">
+            <div class="bg-[var(--white)] lg:relative grid-cols-1 group px-4 lg:px-8 py-10 flex flex-col gap-10 items-center justify-center shadow-lg rounded-lg w-full lg:max-w-[80%] lg:min-w-[350px] overflow-hidden price-card">
                 <img src="./img/abstract/price_card_top_svg.svg" alt="" class="absolute top-0 left-0 w-full h-0 object-cover transition-[height] duration-200 ease-in-out group-hover:h-[185px] z-[999]">
                 <div class="flex flex-col items-center justify-center gap-3 z-[9999]">
                     <h4 class="text-2xl text-center text-[var(--gray)] font-medium duration-400 ease-in-out transition-all price-header">Start-up</h4>
-                    <img src="./img/abstract/price_card_line_blk.svg" alt="" class="price-line duration-400 ease-in-out transition-all">
+                    <img src="./img/abstract/price_card_line_blk.svg" alt="" class="price-line duration-200 ease-in-out transition-all">
                     <h4 class="text-3xl font-medium duration-400 ease-in-out transition-all price-header"><span class = "text-5xl font-semibold">$10</span>/<span>mo</span></h4>
                 </div>
                 <ul class="space-y-3 bg-transparent">
@@ -202,11 +206,11 @@
             </div>
             
             <!--price card/-->
-            <div class="bg-[var(--white)] md:relative grid-cols-1 group px-4 md:px-8 py-10 flex flex-col gap-10 items-center justify-center shadow-lg rounded-lg w-full md:max-w-[80%] md:min-w-[350px] overflow-hidden price-card">
+            <div class="bg-[var(--white)] lg:relative grid-cols-1 group px-4 lg:px-8 py-10 flex flex-col gap-10 items-center justify-center shadow-lg rounded-lg w-full lg:max-w-[80%] lg:min-w-[350px] overflow-hidden price-card">
                 <img src="./img/abstract/price_card_top_svg.svg" alt="" class="absolute top-0 left-0 w-full h-0 object-cover transition-[height] duration-300 ease-in-out group-hover:h-[185px] z-[999]">
                 <div class="flex flex-col items-center justify-center gap-3 z-[9999]">
                     <h4 class="text-2xl text-center text-[var(--gray)] font-medium duration-400 ease-in-out transition-all price-header">Classic</h4>
-                    <img src="./img/abstract/price_card_line_blk.svg" alt="" class="price-line duration-400 ease-in-out transition-all">
+                    <img src="./img/abstract/price_card_line_blk.svg" alt="" class="price-line duration-200 ease-in-out transition-all">
                     <h4 class="text-3xl font-medium duration-400 ease-in-out transition-all price-header"><span class = "text-5xl font-semibold">$30</span>/<span>mo</span></h4>
                 </div>
                 <ul class="space-y-3 bg-transparent">
@@ -219,10 +223,10 @@
             </div>
             
             <!--price card/-->
-            <div class="bg-[var(--white)] md:relative grid-cols-1 group px-4 md:px-8 py-10 flex flex-col gap-10 items-center justify-center shadow-lg rounded-lg w-full md:max-w-[80%] md:min-w-[350px] overflow-hidden price-card">
+            <div class="bg-[var(--white)] lg:relative grid-cols-1 group px-4 lg:px-8 py-10 flex flex-col gap-10 items-center justify-center shadow-lg rounded-lg w-full lg:max-w-[80%] lg:min-w-[350px] overflow-hidden price-card">
                 <img src="./img/abstract/price_card_top_svg.svg" alt="" class="absolute top-0 left-0 w-full h-0 object-cover transition-[height] duration-300 ease-in-out group-hover:h-[185px] z-[999]">
                 <div class="flex flex-col items-center justify-center gap-3 z-[9999]">
-                    <h4 class="text-2xl text-center text-[var(--gray)] font-medium duration-400 ease-in-out transition-all price-header">Premium</h4>
+                    <h4 class="text-2xl text-center text-[var(--gray)] font-medium duration-200 ease-in-out transition-all price-header">Premium</h4>
                     <img src="./img/abstract/price_card_line_blk.svg" alt="" class="price-line duration-400 ease-in-out transition-all">
                     <h4 class="text-3xl font-medium duration-400 ease-in-out transition-all price-header"><span class = "text-5xl font-semibold">$49</span>/<span>mo</span></h4>
                 </div>
@@ -243,24 +247,60 @@
 <!--map/-->
 <section class="mb-14">
         <div class="container mx-auto px-4 max-w-[1400px] flex flex-col items-center justify-center">
-        <h2 class="mb-6 text-[var(--black)] text-center text-[1.8rem] md:text-4xl font-semibold leading-[1.1]">Let's see our User's Review</h2>
-        <p class="mb-12 text-[var(--gray)] text-center">Discover what real users are saying about their experience with our SaaS <br> trusted, reliable, and built to deliver results that matter.</p>
+        <h2 class="mb-6 text-[var(--black)] text-center text-[1.8rem] lg:text-4xl font-semibold leading-[1.1]">Let's see our User's Review</h2>
+        <p class="mb-12 text-[var(--gray)] text-center">Discover what real users are saying about their experience with our SaaS.</p>
         </div>
 
-    <img src="./img/map/map_svg.svg" alt="" class="w-full zoom">
+    <img src="./img/map/map_svg.svg" alt="" class="w-full cursor-none pointer-events-none">
+</section>
+
+
+<!--latest news/-->
+<section class="mt-0 mb-14">
+        <div class="container mx-auto px-4 max-w-[1400px] flex flex-col items-center justify-center gap-8 lg:gap-10">
+            <h2 class="mb-4 text-[var(--black)] text-center text-[1.8rem] lg:text-4xl font-semibold leading-[1.1]">Latest insights news</h2>
+
+            <div class="flex flex-col lg:flex-row items-center justify center gap-18 lg:gap-8 lg:w-[80%]">
+
+                <!--article/-->
+                <div class="">
+                    <img src="./img/people_img_rectangles/people (2).svg" alt="">
+                    <div>
+                     <h4 class="mt-4 text-xl text-[var(--gray)]">Our Creative Team</h4>
+                     <h5 class="mb-3 mt-3 text-lg font-medium flex items-center gap-4"><a href="">17 June 2025</a><a href ="">By Steve Smith</a></h5>
+                    <h3 class="text-2xl font-semibold">Running remote offsites and onboardings</h3>
+                    <p class="text-[var(--gray)] mt-4 mb-10">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro maxime ea incidunt ab nemo esse dolore voluptatibus laborum facilis quo.</p>
+                    <a href="#" class="w-fit text-base duration-200 bg-[var(--blue)] px-6 py-4 rounded-sm text-[var(--white)] hover:text-[var(--blue)] hover:bg-[var(--light-blue)]">Continue</a>
+                </div>
+                </div>
+
+                <!--article/-->
+                <div class="">
+                    <img src="./img/people_img_rectangles/people (1).svg" alt="">
+                    <div>
+                     <h4 class="mt-4 text-xl text-[var(--gray)]">Create presentation</h4>
+                     <h5 class="mb-3 mt-3 text-lg font-medium flex items-center gap-4"><a href="">17 June 2025</a><a href ="">By Steve Smith</a></h5>
+                    <h3 class="text-2xl font-semibold">A new way to look and collaborate</h3>
+                    <p class="text-[var(--gray)] mt-4 mb-10">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro maxime ea incidunt ab nemo esse dolore voluptatibus laborum facilis quo.</p>
+                    <a href="#" class="w-fit text-base duration-200 bg-[var(--blue)] px-6 py-4 rounded-sm text-[var(--white)] hover:text-[var(--blue)] hover:bg-[var(--light-blue)]">Continue</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
 </section>
 
 <footer class="bg-[var(--light-blue)]">
-    <div class="container mx-auto px-4 py-12 md:py-20 max-w-[1400px] flex flex-col-reverse md:flex-row gap-10 md:gap-0 justify-between">
+    <div class="container mx-auto px-4 py-12 lg:py-20 max-w-[1400px] flex flex-col-reverse lg:flex-row gap-10 lg:gap-0 justify-between">
 
         <!--scocial links/-->
-        <div class="flex flex-col gap-4 md:gap-7 md:max-w-[25%]">
-            <a href="./index.html" class="cursor-pointer hidden md:block">
-            <img src="./img/Logo/logo_svg.svg" alt="#" class="w-[30%] md:w-fit hidden md:block">
+        <div class="flex flex-col gap-4 lg:gap-7 lg:max-w-[25%]">
+            <a href="./index.html" class="cursor-pointer hidden lg:block">
+            <img src="./img/Logo/logo_svg.svg" alt="#" class="w-[30%] lg:w-fit hidden lg:block">
             </a>
-            <h4 class="font-medium text-[1.2rem] md:hidden">Social Links</h4>
+            <h4 class="font-medium text-[1.2rem] lg:hidden">Social Links</h4>
             <p class="text-[var(--gray)] ">Have a question? Let’s talk about how Codext’s smart and secure SaaS solutions can help your business grow.</p>
-            <div class="flex gap-4 md:gap-6 items-center">
+            <div class="flex gap-4 lg:gap-6 items-center">
                 <a href="#" class="flex items-center justify-center text-xl text-[var(--blue)] bg-[var(--boxicon-color)] p-2.5 rounded-full duration-200 transition-all hover:bg-[var(--blue)] hover:text-[var(--white)]"><i class="bx bxl-twitter"></i></a>
                 <a href="#" class="flex items-center justify-center text-xl text-[var(--blue)] bg-[var(--boxicon-color)] p-2.5 rounded-full duration-200 transition-all hover:bg-[var(--blue)] hover:text-[var(--white)]"><i class="bx bxl-facebook"></i></a>
                 <a href="#" class="flex items-center justify-center text-xl text-[var(--blue)] bg-[var(--boxicon-color)] p-2.5 rounded-full duration-200 transition-all hover:bg-[var(--blue)] hover:text-[var(--white)]"><i class="bx bxl-instagram"></i></a>
@@ -269,7 +309,7 @@
         </div>
 
         <!---resources/-->
-        <div class="flex flex-col gap-4 md:gap-7">
+        <div class="flex flex-col gap-4 lg:gap-7">
             <h4 class="font-medium text-[1.2rem]">Resources</h4>
             <ul class="flex flex-col gap-3">
                 <li><a href="#"class = "text-[1.15rem] text-[var(--gray)] font-normal duration-200 hover:text-[var(--blue)]">Services</a></li>
@@ -280,7 +320,7 @@
         </div>
 
         <!---useful links/-->
-        <div class="flex flex-col gap-4 md:gap-7">
+        <div class="flex flex-col gap-4 lg:gap-7">
             <h4 class="font-medium text-lg">Useful links</h4>
             <ul class="flex flex-col gap-3">
                 <li><a href="#"class = "text-[1.15rem] text-[var(--gray)] font-normal duration-200 hover:text-[var(--blue)]">Terms of Services</a></li>
@@ -291,7 +331,7 @@
         </div>
 
         <!--newsletter/-->
-        <div class="flex flex-col gap-4 md:gap-7">
+        <div class="flex flex-col gap-4 lg:gap-7">
             <h4 class="font-medium text-[1.2rem]">Newsletter</h4>
             <p class="text-base text-[var(--gray)]">Sign up and receive the latest news via email.</p>
 
@@ -302,12 +342,12 @@
         </div>
 
         <!--mobile logo-[-10px] -->
-        <a href="./index.html" class="cursor-pointer block md:hidden">
-        <img src="./img/Logo/logo_svg.svg" alt="#" class="w-[33%] md:w-fit block md:hidden">
+        <a href="./index.html" class="cursor-pointer block lg:hidden">
+        <img src="./img/Logo/logo_svg.svg" alt="#" class="w-[33%] lg:w-fit block lg:hidden">
         </a>
     </div>
     <div class="container mx-auto px-4 py-6 max-w-[1400px] border-t border-t-[var(--boxicon-color)]">
-        <p class="text-[var(--gray)] text-center text-xs md:text-base">&copy; Copyright 2025 The Codext | All Rights Reserved</p>
+        <p class="text-[var(--gray)] text-center text-xs lg:text-base">&copy; Copyright 2025 The Codext | All Rights Reserved</p>
     </div>
 </footer>
 </body>
