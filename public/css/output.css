@@ -255,29 +255,8 @@
   .mt-25 {
     margin-top: calc(var(--spacing) * 25);
   }
-  .mt-\[-0px\] {
-    margin-top: -0px;
-  }
-  .mt-\[-10px\] {
-    margin-top: -10px;
-  }
-  .mt-\[-50px\] {
-    margin-top: -50px;
-  }
-  .mt-\[-60px\] {
-    margin-top: -60px;
-  }
   .mt-\[-65px\] {
     margin-top: -65px;
-  }
-  .mt-\[-70px\] {
-    margin-top: -70px;
-  }
-  .mt-\[65\] {
-    margin-top: 65;
-  }
-  .mt-\[65px\] {
-    margin-top: 65px;
   }
   .mb-0 {
     margin-bottom: calc(var(--spacing) * 0);
@@ -333,9 +312,6 @@
   .min-h-\[120px\] {
     min-height: 120px;
   }
-  .w-\[0\%\] {
-    width: 0%;
-  }
   .w-\[30\%\] {
     width: 30%;
   }
@@ -345,32 +321,14 @@
   .w-\[50px\] {
     width: 50px;
   }
-  .w-\[60\%\] {
-    width: 60%;
-  }
   .w-\[70\%\] {
     width: 70%;
-  }
-  .w-\[80\%\] {
-    width: 80%;
   }
   .w-\[90\%\] {
     width: 90%;
   }
-  .w-\[100\%\] {
-    width: 100%;
-  }
   .w-\[100px\] {
     width: 100px;
-  }
-  .w-\[300pc\] {
-    width: 300pc;
-  }
-  .w-\[300px\] {
-    width: 300px;
-  }
-  .w-\[3100px\] {
-    width: 3100px;
   }
   .w-fit {
     width: fit-content;
@@ -380,9 +338,6 @@
   }
   .w-max {
     width: max-content;
-  }
-  .max-w-\[60\%\] {
-    max-width: 60%;
   }
   .max-w-\[70\%\] {
     max-width: 70%;
@@ -423,9 +378,6 @@
   .grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
-  .grid-cols-3 {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
   .flex-col {
     flex-direction: column;
   }
@@ -455,9 +407,6 @@
   }
   .justify-start {
     justify-content: flex-start;
-  }
-  .gap-1 {
-    gap: calc(var(--spacing) * 1);
   }
   .gap-3 {
     gap: calc(var(--spacing) * 3);
@@ -614,12 +563,6 @@
   .font-\[\'Inter\'\] {
     font-family: 'Inter';
   }
-  .font-\[\'inter\'\] {
-    font-family: 'inter';
-  }
-  .font-\[inter\] {
-    font-family: inter;
-  }
   .text-2xl {
     font-size: var(--text-2xl);
     line-height: var(--tw-leading, var(--text-2xl--line-height));
@@ -680,9 +623,6 @@
     --tw-font-weight: var(--font-weight-semibold);
     font-weight: var(--font-weight-semibold);
   }
-  .text-\[var\(\)\] {
-    color: var();
-  }
   .text-\[var\(--black\)\] {
     color: var(--black);
   }
@@ -694,12 +634,6 @@
   }
   .text-\[var\(--white\)\] {
     color: var(--white);
-  }
-  .text-\[var-white\] {
-    color: var-white;
-  }
-  .text-\[var\] {
-    color: var;
   }
   .underline {
     text-decoration-line: underline;
