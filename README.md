@@ -35,7 +35,7 @@ This mini project was aimed at:
 
 ## Notes
 
-- Fully built with Tailwind CSS (no external UI libraries used)  
+- Built with Tailwind CSS 
 - Mobile-first responsive design implemented using Tailwind breakpoints  
 - Includes minimal JavaScript for basic functionality  
 - Clean and simple layout for practice and inspiration purposes
