@@ -21,7 +21,8 @@ This mini project was aimed at:
 
 ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?logo=html5&logoColor=white&style=for-the-badge)  
 ![Tailwind CSS](https://img.shields.io/badge/-Tailwind%20CSS-38B2AC?logo=tailwind-css&logoColor=white&style=for-the-badge)  
-![JavaScript](https://img.shields.io/badge/-JavaScript-F0DB4F?logo=javascript&logoColor=black&style=for-the-badge)
+![JavaScript](https://img.shields.io/badge/-JavaScript-F0DB4F?logo=javascript&logoColor=black&style=for-the-badge)  
+![AOS](https://img.shields.io/badge/-AOS%20CSS-29A19C?logo=css3&logoColor=white&style=for-the-badge)
 
 ---
 
